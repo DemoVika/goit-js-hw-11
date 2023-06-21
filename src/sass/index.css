@@ -1,0 +1,39 @@
+.gallery {
+margin-top: 20px;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+align-items: center;
+background-color: rgb(244, 244, 253, 1);
+}
+
+.photo-card {
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+padding-bottom: 32px;
+}
+
+.img-card {
+display: block;
+width: 300px;
+height: 200px;            
+}
+
+.info {
+display: flex;
+gap: 10px;
+justify-content: space-around;   
+}
+
+.info-item {
+margin: 0;
+padding: 0 0 10px 0;
+align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.load-more {
+    margin-top: 20px;
+}
